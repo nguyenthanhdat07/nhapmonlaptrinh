@@ -5,6 +5,7 @@
 #include <iostream>
 #include <string>
 	using namespace std;
+	void baitap() {
 		int main()
 		{
 			//Cau 1
@@ -52,7 +53,10 @@
 			cout << "Nhap vao 3 so thuc: ";
 			cin >> so1 >> so2 >> so3;
 			float trungbinh = (so1 + so2 + so3) / 3;
-			#include 
+			#include
 			cout << "Trung binh: " << fixed << setprecision(2) << trungbinh;*/
 			return 0;
 		}
+	}
+
+	
