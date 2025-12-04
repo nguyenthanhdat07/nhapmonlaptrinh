@@ -17,7 +17,7 @@ void cau1(){
 void cau2(){
 	int sotien;
 	cout << "Nhap so tien:";
-	cin >> sotien;
+	    cin >> sotien;
 	int to500k = sotien / 500000;
 	cout << "So to 500k:" << to500k << endl;
 	sotien -= to500k * 500000;
@@ -55,13 +55,16 @@ void cau4() {
 	cout << "Khoang cach:" << sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1)) << endl;
 }
 void cau5() {
-	int a, b, e;
+	int a, b, c;
 	cout << "Nhap 3 canh:";
 	cin >> a >> b >> c;
 	cout << "The tich:" << a * b * c << endl;
-	cout << "Dien tich:" << 2 * (a * b + b * c + a * c) < endl;
+	cout << "Dien tich:" << 2 * (a * b + b * c + a * c) << endl;
+}
+void cau6() {
+	int a, b ,c 
 }
 int main() 
 {
-	cau5();
+	cau4();
 }
